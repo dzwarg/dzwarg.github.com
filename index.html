@@ -5,7 +5,7 @@
     <body>
         <h1>Projects</h1>
         
-        <p>(In no particular order)</p>
+        <p>In alphabetical order</p>
         
         <hr/>
         
@@ -51,6 +51,105 @@
                 <b>Description:</b>
                 Caféduino is an Arduino program that reads sensors and sends data to other network
                 listeners/aggregators.
+            </p>
+        </div>
+        
+        <div>
+            <h2>Election Returns</h2>
+            
+            <p>
+                <b>Project URL:</b>
+                <a href="https://github.com/dzwarg/election-returns">https://github.com/dzwarg/election-returns</a>
+            </p>
+            
+            <p>
+                <b>Description</b>
+                Election Returns is a scraping application that reads the current results of the 2012 Presidential
+                election from the NYTimes.com website. In addition, there is a d3 visualization component that
+                visualizes the returns that have been scraped.
+            </p>
+        </div>
+        
+        <div>
+            <h2>Hubway Challenge</h2>
+            
+            <p>
+                <b>Project URL:</b>
+                <a href="https://github.com/dzwarg/hubway-challenge">https://github.com/dzwarg/hubway-challenge</a>
+            </p>
+            
+            <p>
+                <b>Description:</b>
+                The <a href="http://hubwaydatachallenge.org/">Hubway Visualization Challenge</a> was a contest run in 
+                Boston during the Fall of 2012 to visualize 500,000+ bike trips on the Hubway system. My entry into the
+                contest was twofold:
+                <ul>
+                    <li><i><a href="http://d3js.org/">d3</a> visualizations</i>: Using d3, I had a web app look at cross sections of the rider
+                        populations in three different ways. Each of the visualization cross sections linked to
+                        the other sections, so you could traverse the visualization modes seamlessly.
+                    </li>
+                    <li><i><a href="http://graphserver.github.com/graphserver/">graphserver</a> visualizations</i>: Using graphserver, I used the routing engine in graphserver
+                        to composite trips for segments of time together, and visualize where people were traveling,
+                        based on their starting point and ending point. This final result was compiled into a movie.
+                        <a href="https://www.youtube.com/watch?v=Z4JH7auuuHc">The final compilation is on youtube.</a>
+                    </li>
+                </ul>
+            </p>
+        </div>
+        
+        <div>
+            <h2>SpamLibs</h2>
+            
+            <p>
+                <b>Project URL:</b>
+                <a href="http://github.com/dzwarg/spamlibs">https://github.com/dzwarg/spamlibs</a>
+                <br />
+                <b>App URL:</b>
+                <a href="http://spamlibs.appspot.com">http://spamlibs.appspot.com</a>
+            </p>
+            
+            <p>
+                <b>Description:</b>
+                SpamLibs takes spam email messages, and uses them for Mad Libs&trade;.
+                The application runs the body of the spam email through a natural language processor
+                to determine the types of words in the message (noun, adjective, verb). The application then
+                randomly removes many of the original words, and prompts users to fill in the missing types
+                of speech.  After a user has submitted the form, the application takes the user submitted 
+                vocabulary and combines it with the original spam email, often to hilarious effect!
+            </p>
+            
+            <p>
+                Mad Libs&trade; is Copyright &copy; 2010 Pengiun Group(USA), and is in no way related to Spamlibs.
+            </p>
+        </div>
+        
+        <div>
+            <h2>vTour</h2>
+            
+            <p>
+                <b>Project URL:</b>
+                <a href="https://github.com/dzwarg/vtour">https://github.com/dzwarg/vtour</a>
+                <br />
+                <b>App URL:</b>
+                <a href="http://www.spondubone.net/~davidz/vtour_app">http://www.spondubone.net/~davidz/vtour_app</a>
+            </p>
+            
+            <p>
+                <b>Description:</b>
+                vTour is a method of searching for geotagged photographs on 3 major photo sharing APIs:
+                <ul>
+                    <li><a href="http://www.flickr.com/">Flickr</a></li>
+                    <li><a href="http://www.panoramio.com/">Panoramio</a></li>
+                    <li><a href="https://picasaweb.google.com/lh/explore">Picasa</a></li>
+                </ul>
+                A user can search by photos by selecting a place on the map, which brings up all photos that are
+                geolocated within a certain distance of that place. The app performs a bounding-box search, since
+                not all APIs support radius searching.
+            </p>
+            
+            <p>
+                This app uses the python app <a href="http://featureserver.org/">FeatureServer</a> to save search results, which in turn saves features
+                into a <a href="http://postgis.org/">PostGIS</a> database.
             </p>
         </div>
     </body>
