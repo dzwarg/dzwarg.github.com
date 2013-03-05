@@ -1,57 +1,169 @@
-<html>
+<!DOCTYPE html>
+<!--[if IE 8]>     			 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
     <head>
-        <title>David Zwarg's Github Page</title>
+	    <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Projects by dzwarg</title>
+        
+        <style type="text/css">
+            h2 a { color: #222222; }
+            h2 a:hover { color: #444444; }
+            .more { display: none; }
+        </style>
+        <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+        <link type="text/css" rel="stylesheet" href="css/foundation.css" />
+        <script type="text/javascript" src="js/vendor/custom.modernizr.js"></script>
     </head>
     <body>
-        <h1>Projects</h1>
+        <div class="row">
+    		<div class="large-12 columns">
+    			<h2>Projects</h2>
+    			<p>In alphabetical order</p>
+    			<hr />
+    		</div>
+    	</div>
         
-        <p>In alphabetical order</p>
-        
-        <hr/>
-        
-        <div>
-            <h2>Aligner</h2>
+		<div class="row">
+			<div class="large-4 columns">
+				<div class="panel">
+					<h2><a name="aligner">Aligner</a></h2>
+                    <p>
+                        <b>Repo:</b>
+                        <a href="https://github.com/dzwarg/aligner">dzwarg/aligner</a>
+                    </p>
+				</div>
+			</div>
             
-            <p>
-                <b>Project URL:</b> 
-                <a href="https://github.com/dzwarg/aligner">https://github.com/dzwarg/aligner</a>
-            </p>
+			<div class="large-8 columns">
+				<div class="panel">
+					<h4>Summary</h4>
+                    
+                    <p>
+                        Aligner is a Python & PyGTK app that displays a directory full of images, and provides
+                        simple controls for shifting images one by one.
+                    </p>
+                    
+                    <a href="#aligner" class="button tiny secondary more-toggle">More...</a>
+                                        
+                    <div class="more">
+                        <h4>Description</h4>
+                        
+                        <p>
+                            Aligner was born out of the need to automatically align a large sequence of images that
+                            were nearly aligned, but demonstrated poor coherence when compiled into a timelapse sequence.
+                            The original image sequence that Aligner tackled was a time lapse series of webcam photographs
+                            taken during the <a href="https://www.youtube.com/watch?v=Uq7YDdfziqQ">construction 
+                            of the Comcast Tower in Center City Philadelphia.</a>
+                        </p>
+                        
+                        <p>
+                            The webcam photos were taken at one hour intervals over the course of about a year. During this
+                            time, the webcam was shifted, rotated, wiggled, flexed, and bumped. In order to make the image
+                            sequence somewhat viewable, the images needed to be shifted, or wrapped, to fix the position
+                            of the building across all frames in the compiled film.                        
+                        </p>
+                        
+                        <p>
+                            An automated method was used to autocorrelate the images with each other, and that was only
+                            moderately successful, because the images changed immensely over the course of a day, depending
+                            on the weather, the illumination, which angle the camera was positioned, etc. Therefore, a
+                            finer tool was needed to hone the sequence into position.
+                        </p>
+                    </div>
+				</div>
+			</div>
+		</div>
+        
+    	<div class="row">
+			<div class="large-4 columns">
+				<div class="panel">
+					<h2><a name="bounce">Bounce</a></h2>
+                    <p>
+                        <b>Repo:</b>
+                        <a href="https://github.com/dzwarg/bounce">dzwarg/bounce</a>
+                    </p>
+				</div>
+			</div>
             
-            <p>
-                <b>Description:</b>
-                Aligner is a Python & PyGTK app that displays a directory full of images, and provides
-                simple controls for shifting images one by one.
-            </p>
+    		<div class="large-8 columns">
+				<div class="panel">
+					<h4>Summary</h4>
+                    
+                    <p>
+                        Bounce is a Python application written with pygame for the <a href="http://wiki.openmoko.org/wiki/Main_Page">
+                        OpenMoko open source phone</a>. It uses the built-in accelerometers in the phone to move the image of a ball
+                        around the screen.
+                    </p>
+                    
+                    <a href="#bounce" class="button tiny secondary more-toggle">More...</a>
+                    
+                    <div class="more">
+                        <h4>Description</h4>
+                        
+                        <p>
+                            Bounce was my first experiment with the pygame library for graphics & sounds, accelerometers, and touch
+                            interfaces. Originally intended to be a 3D accelerometer game where the user tries to bounce a ball
+                            inside a box, I was unable to reduce the latency of even 2D bouncing graphics + sound effects.
+                        </p>
+                        
+                        <p>
+                            The better game is <a href="http://mokomaze.sourceforge.net/">MokoMaze</a> on the OpenMoko, anyway.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
         
-        <div>
-            <h2>Bounce</h2>
+        <div class="row">
+    		<div class="large-4 columns">
+				<div class="panel">
+					<h2><a name="cafeduino">Caféduino</a></h2>
+                    <p>
+                        <b>Repo:</b>
+                        <a href="https://github.com/dzwarg/cafeduino">dzwarg/cafeduino</a>
+                    </p>
+				</div>
+			</div>
             
-            <p>
-                <b>Project URL:</b>
-                <a href="https://github.com/dzwarg/bounce">https://github.com/dzwarg/bounce</a>
-            </p>
-            
-            <p>
-                <b>Description:</b>
-                Bounce is a Python application writter for the OpenMoko open source phone. It uses the 
-                built-in accelerometers in the phone to move a sprite around the screen.
-            </p>
-        </div>
-        
-        <div>
-            <h2>Caféduino</h2>
-        
-            <p>
-                <b>Project URL:</b>
-                <a href="https://github.com/dzwarg/cafeduino">https://github.com/dzwarg/cafeduino</a>
-            </p>
-            
-            <p>
-                <b>Description:</b>
-                Caféduino is an Arduino program that reads sensors and sends data to other network
-                listeners/aggregators.
-            </p>
+    		<div class="large-8 columns">
+				<div class="panel">
+					<h4>Summary</h4>
+                    
+                    <p>
+                        An <a href="http://arduino.cc/">Arduino</a>-assisted coffee pot that reported it's status to
+                        <a href="https://cosm.com/">cosm.com, what used to be pachube.com</a>. This was a combination
+                        hardware and software project, installed at <a href="http://www.azavea.com/">Azavea Headquarters</a>
+                        in Philadelphia, PA.
+                    </p>
+                    
+                    <a href="#bounce" class="button tiny secondary more-toggle">More...</a>
+                    
+                    <div class="more">
+                        <h4>Description</h4>
+                        
+                        <p>
+                            Everybody hates the experience of walking up to a coffee pot, not knowing if the pot is full or not,
+                            and discovering that your worst fear is realized, and that the pot is indeed empty.  These experiences
+                            were becoming common around the office, so I thought that I would apply a hardware solution to the 
+                            caffeine problem.
+                        </p>
+                        
+                        <p>
+                            The software in this repository is an arduino sketch that was running on an arduino + ethernet shield.
+                            The sketch continuously measured the pressure on two different piezo sensors, and calculated the
+                            full/empty ratio based on this measurement. On regular intervals, the sketch would publish the 
+                            state of the coffee maker on pachube.com
+                        </p>
+                        
+                        <p>
+                            The hardware for this project has been decommissioned, but sketches for the hardware are still present
+                            in the repository.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
         
         <div>
@@ -152,5 +264,49 @@
                 into a <a href="http://postgis.org/">PostGIS</a> database.
             </p>
         </div>
+<!-- template for project items:
+        <div class="row">
+			<div class="large-4 columns">
+				<div class="panel">
+					<h2><a name="name">Name</a></h2>
+                    <p>
+                        <b>Repo:</b>
+                        <a href="https://github.com/dzwarg/repo">dzwarg/repo</a>
+                    </p>
+				</div>
+			</div>
+            
+    		<div class="large-8 columns">
+				<div class="panel">
+					<h4>Summary</h4>
+                    
+                    <p>
+                        SUMMARY
+                    </p>
+                    
+                    <a href="#bounce" class="button tiny secondary more-toggle">More...</a>
+                    
+                    <div class="more">
+                        <h4>Description</h4>
+                        
+                        <p>
+                            DESCRIPTION
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
+        <script type="text/javascript">
+            document.write('<script src=' + ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') + '.js><\/script>')
+        </script>
+  
+        <script type="text/javascript" src="js/foundation.min.js"></script>
+        <script type="text/javascript">
+            $(document).foundation();
+            $('.more-toggle').click(function () {
+                $(this).next().toggle();
+            });
+        </script>
     </body>
 </html>
