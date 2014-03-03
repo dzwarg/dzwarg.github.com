@@ -1,6 +1,6 @@
 [submodule "howto-open-source"]
 	path = howto-open-source
-	url = git@github.com:dzwarg/howto-open-source.git
+	url = https://github.com/dzwarg/howto-open-source.git
 [submodule "red-alert-ultra-intense"]
 	path = red-alert-ultra-intense
-	url = git@github.com:dzwarg/red-alert-ultra-intense
+	url = https://github.com/dzwarg/red-alert-ultra-intense.git
