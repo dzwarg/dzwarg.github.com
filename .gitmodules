@@ -7,3 +7,6 @@
 [submodule "d3-reveal-demo"]
 	path = d3-reveal-demo
 	url = git@github.com:dzwarg/d3-reveal-demo.git
+[submodule "community-mapping-party"]
+	path = community-mapping-party
+	url = git@github.com:dzwarg/community-mapping-party.git
