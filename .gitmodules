@@ -4,3 +4,6 @@
 [submodule "red-alert-ultra-intense"]
 	path = red-alert-ultra-intense
 	url = https://github.com/dzwarg/red-alert-ultra-intense.git
+[submodule "d3-reveal-demo"]
+	path = d3-reveal-demo
+	url = git@github.com:dzwarg/d3-reveal-demo.git
