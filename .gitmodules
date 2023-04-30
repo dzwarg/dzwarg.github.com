@@ -9,3 +9,7 @@
 	path = howto-open-source
 	url = git@github.com:dzwarg/howto-open-source.git
 	branch = master
+[submodule "red-alert-ultra-intense"]
+	path = red-alert-ultra-intense
+	url = git@github.com:dzwarg/red-alert-ultra-intense.git
+	branch = master
