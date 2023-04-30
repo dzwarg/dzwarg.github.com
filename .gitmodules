@@ -1,12 +1,6 @@
-[submodule "howto-open-source"]
-	path = howto-open-source
-	url = https://github.com/dzwarg/howto-open-source.git
 [submodule "red-alert-ultra-intense"]
 	path = red-alert-ultra-intense
 	url = https://github.com/dzwarg/red-alert-ultra-intense.git
-[submodule "d3-reveal-demo"]
-	path = d3-reveal-demo
-	url = git@github.com:dzwarg/d3-reveal-demo.git
 [submodule "community-mapping-party"]
 	path = community-mapping-party
 	url = git@github.com:dzwarg/community-mapping-party.git
